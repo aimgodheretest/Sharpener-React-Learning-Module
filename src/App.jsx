@@ -1,8 +1,10 @@
-import ExpenseItems from "./components/ExpenseItems.jsx";
+import ExpenseItems from "./components/Expenses/ExpenseItem";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 function App() {
   return (
-    <>
+    <div>
+      <NewExpense />
       <ExpenseItems
         date={new Date(2026, 10, 1)}
         location={"Bangalore"}
@@ -27,7 +29,7 @@ function App() {
         title={"Laptop"}
         price={100}
       />
-    </>
+    </div>
   );
 }
 
