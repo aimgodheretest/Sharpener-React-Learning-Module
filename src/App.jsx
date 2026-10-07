@@ -27,7 +27,7 @@ function App() {
     },
     {
       id: 4,
-      date: new Date(2026, 10, 1),
+      date: new Date(2025, 10, 1),
       location: "Mumbai",
       title: "Laptop",
       price: 100,
